@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* flex-wrap: wrap; */
+}
+header{
+    background-color: #2874f0;
+    color: white;
+    height: 10vh;
+    font-family: 'Roboto Mono', monospace;
+}
+nav{
+    display: flex;
+    /*  WE DO IT TO STOP OVERLAPPING OF LOGO AND NAV BAR  */
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /*  PREVIOUSLY IT WAS NOT WORKING BCOZ UL DOES NOT HAVE ANY HEIGHT SO WE MAKE UL AND HEADERS HEIGHT SAME */
+    height: 10vh;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    padding: 2vh;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: white;
+    font-weight: bolder;
+}
+.logo{
+    display: flex;
+    align-self: center;
+   
+}
+/*  AS WE WANT THE SIZE OF IMAGE TO CHANGE WE CANNOT CHANGE LOGO'S HEIGHT & WIDTH , WE NEED TO TARGET IMAGE ITSELF FOR BEST RESUTTS */
+.logo img{
+    width: 9vw;
+    padding: 0 1vw;
+    margin-top: 0.5vw;
+}
+.searchBar{
+    display: flex;
+    align-self: center;
+    
+}
+.searchBar input{
+    /*  WE NEED TO TARGET INPUT, NOT TEXT OR SEARCH */
+    width: 30vw;
+    height: 5vh;
+    border-radius: 0.3vw;
+    margin: 0 1vw 0 7vw ;
+    padding: 0 0.6vw;
+}
+.btn{
+    
+    border-radius: 0.3vw;
+    padding: 0 0.7vw;
+    background-color: white;
+    /* border: 1px solid black; */
+    /*  WE DO NOT ADD BORDER BCOZ DEFAULT BUTTON CSS IS PERFECT */
+
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+
+    cursor:pointer;
+    /*  WHEN WE TAKE MOUSE OVER IT(HOVER) , CURSOR BECOMES POINTER */
+
+    /*  FOR RESIZE WE DO FLEX */
+   
+}
+.cart{
+    height: 6vh;
+    margin-left: 9vw;
+    display: flex;
+    padding: 0 4px;
+}
+.rou{
+
+}
+.rou a img{
+    height: 8vh;
+    /* padding-left: 0.7vw; */
+    margin-top: 0.5vw;
+    background-color: #2874f0;
+    /* filter: brightness(300%); */
+    /* opacity: ; */
+
+}
+.rou a img:hover{
+    height:8.8vh ;
+}
+.round{
+    padding: 0 10px;
+}
+.round a img{
+    padding: 2px;
+    height: 7vh;
+    border: 0.1px solid #2874f0;
+    border-radius: 100px;
+    margin-top: 0.5vw ;
+}
+.round a img:hover{
+    height:8vh ;
+}
+.round2{
+    padding-left: 10px;
+
+}
+.round2 a img{
+    height: 7.2vh;
+    border: 2px solid #2874f0;
+    border-radius: 200px;
+    padding: 2px;
+    margin-top: 0.4vw ;
+    
+}
+.round2 a img:hover{
+    height:8vh ;
+}
+.container{
+    
+    min-height: calc(100vh - 10vh - 10vh);
+    /* display: flex; */
+    
+    /* TOTAL HEIGHT OF THE PAGE - HEIGHT OF HEADER & FOOTER  */
+    /* CALC FUNCTION IS USED TO CALCULATE THE RESULT */
+}
+.slider{
+    
+    /*  WE CAN USE FLEX FOR ITS ALLIGNMENT OR DO LIKE THIS */
+    /* margin: auto; */
+    width: 80vw;
+    margin: 1vw auto;
+    overflow: hidden;
+    /*  IN ORDER TO MAKE IT RESPONSIVE WE HIDE OVERFLOW */
+    
+}
+.slider img{
+    width: 80vw;
+    /* HERE WE MAKE IMAGE & SLIDERS WIDTH SAME SO THAT NO ISUUES ARE CREATED */
+
+}
+/* .slider img:hover{
+    width: 82vw;
+} */
+.card{
+    background-color: antiquewhite;
+    width: 91vw;
+    margin: auto;
+}
+.card-item{
+    /*  WE DO INLINE FLEX SO THAT OTHER CARDS COME AFTER IT (IN ROWS) BUT WE CAN STILL CHANGE IT'S POSITION */
+    display: inline-flex;
+    justify-content: center;
+    width: 11vw;
+    flex-direction: column;
+    /*  WE DO IT COLUMN AS W E WANT LINES BELOW IT NOT AFTER IT */
+    margin: 0 15px;
+}
+.card h2{
+    margin: 1vw 0;
+    padding: 0 7vw;
+}
+
+.lines{
+    padding: 0.5vw 1.7vw ;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    /*  IN CASE IS ANY IMAGE GETS MORE WIDTH THEN IT WILL NOT COME OUTSIDE THE CARDS */
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    font-family: 'Roboto Mono', monospace;
+}

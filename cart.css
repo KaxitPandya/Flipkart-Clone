@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+.container-cart{
+    height: 120vh;
+    /* width: 80vw; */
+    margin: auto;
+    text-align: center;
+}
+.carti{
+    padding-top: 5vh;
+    height: 25vh;
+    width: 80vw;
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: 'Roboto Mono', monospace;
+    background-color: white;
+    margin: auto;
+    margin-top: 5vh;
+
+}
+.container-cart button{
+    margin-top: 7vh;
+    cursor: pointer;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    height: 5vh; 
+    font-size: 1.3vw;
+    font-weight: 400;    
+}
+.container-cart button:hover{
+    font-weight: 700;
+    padding: 3px;
+    font-size: 1.6vw;
+
+}
+.container-cart button a{
+    text-decoration: none;
+    color: black;
+}

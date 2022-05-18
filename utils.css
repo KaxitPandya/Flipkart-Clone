@@ -1,0 +1,6 @@
+/*  HERE WE WRITE ALL THE COMMONLY USED AND GENERAL CSS */
+.flex-all-centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

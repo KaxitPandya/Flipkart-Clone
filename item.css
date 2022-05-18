@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-it{
+    height: 170vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.con{
+    font-family: 'Roboto Mono', monospace;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.con p{
+    text-align: center;
+    margin-top: 1vh;
+    padding: 2px;
+    font-size: 1.5vw;
+    font-weight: 900;
+}
+.con a img{
+    height: 45vh;
+    margin-left:17%;
+
+}
+.but a{
+    text-decoration: none;
+    color: black;
+}
+.but1:hover{
+    background-color: antiquewhite;
+    font-size: 1.5vw;
+    
+}
+.but2:hover{
+    background-color: antiquewhite;
+    font-size: 1.5vw;
+    
+}
+.con button{
+    width: 15vw;
+    height: 5vh;
+    margin-top: 3vh;
+    flex-direction: row;
+    font-size: 1.2vw;
+}
+.but1{
+    margin-left:25% ;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+.but2{
+    margin-left: 26%;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+h2{
+    text-align: center;
+}

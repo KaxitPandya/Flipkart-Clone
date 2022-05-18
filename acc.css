@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+.container-acc{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.acc-i{
+    margin-top: 2vw;
+    margin-left: 3vw;
+}
+.acc-i img{
+    border: 2px solid white;
+    border-radius: 300px;
+    height: 35vh;
+}
+.acc-i img:hover{
+    height: 38vh;
+}
+
+.acc-text{
+    height: 35vh;
+    margin: 1vw 4vw;
+    font-size: 25px;
+    font-weight: 500;
+}
+.acc-text a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    padding-top:2px ;
+
+}
+
+.acc-text a:hover{
+    font-size: 35px;
+    font-weight: 900;
+}

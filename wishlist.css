@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+    text-align: center;
+}
+.container-wis{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+    margin-top:8vh;
+    
+}
+.wis{
+    width: 80vw;
+    height: 25vh;
+    background-color: white;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Roboto Mono', monospace;
+
+}
+.wis button{
+    cursor: pointer;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    margin-top: 8vh;
+    font-weight: 400;   
+    height: 5vh; 
+    font-size: 1.3vw;
+}
+.wis button:hover{
+    font-weight: 700;
+    padding: 3px;
+    font-size: 1.6vw;
+}
+.wis button a{
+    text-decoration: none;
+    color: black;
+}

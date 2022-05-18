@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLIPKART</title>
+
+    <!--  WE CAN USE LINK IN HTML OR IMPORT GOOGLE FONTS IN CSS -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="feedBack.css">
+    <!-- AS STYLE IS IN CSS FOLDER AND NOT IN IT'S NEIGHBOUR WE DO THIS ( / ) -->
+    <!-- JUST WRITE THE NEIGHBOUR FOLDER NAME & IT WILL RECOMEND IT'S FILES -->
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="home.html"><img src="logo.png" alt=""></a></div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="feedBack.html">FeedBack</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+                <!-- WRITE HOME,ABOUT INSIDE ANCHOR TAG OTHERWISE IT WILL NOT FORM A LINK -->
+            </ul>
+            <div class="searchBar"><input type="search" placeholder="Search Here">
+                <!--  WE CAN ALSO WRITE input type="text" -->
+
+                <button class="btn">Search</button>
+            </div>
+
+            <div class="cart">
+                <div class="rou"><a href="wishlist.html"><img src="wishlist.png" alt=""></a></div>
+
+                <div class="round"><a href="cart.html"><img src="cart.png" alt=""></a></div>
+
+                <div class="round2"><a href="acc.html"><img src="acc.png" alt=""></a></div>
+
+            </div>
+            
+        </nav>
+
+    </header>
+
+    <main>
+        <div class="container-fed">
+            <p>Name <input type="text" class="fa" placeholder="Enter Your Name"> </p>
+
+            <p>E-mail <input type="text" class="fa" placeholder="Enter Your E-mail id "> </p>
+
+            <p>FeedBack <input type="text" class="fa fa3" placeholder="Enter Your FeedBack"> </p>
+
+            <button class="submit"> <a href="feedBack.html">Submit</a> </button>
+
+        </div>
+    </main>
+
+    <footer class="flex-all-centre">
+        <p> Copyright &copy; KaxitPandya </p>
+    </footer>
+
+</body>
+
+</html>
